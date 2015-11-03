@@ -1,0 +1,40 @@
+body {
+	background: white;
+	color: black;
+	font-family: helvetica;
+	background-position: center;
+}
+Ul {
+      padding: 10px;
+      font-family: helvetica;
+   }
+   #one {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      text-align: center;
+    }
+#two {
+	text-align: center;
+}
+img{
+      margin: 25px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      height: auto; 
+      width: auto; 
+      max-width: 300px; 
+      max-height: 300px;
+      position: center;
+    }
+h1 {
+	text-align: center;
+	background: white;
+	color: black;
+	font-family: helvetica, sans-serif;
+}
+h2 {
+	text-align: center;
+	background: white;
+	color: black;
+	font-family: helvetica, sans-serif;
+}
