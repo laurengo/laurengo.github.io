@@ -6,9 +6,11 @@ body {
 	padding: 54px;
 	width:720px;
 }
+span {
+	color: #dddddd;
+}
 li {
 	display: inline;
-	padding-left: 0px
 }
 ul {
 	padding-left: 0px;
