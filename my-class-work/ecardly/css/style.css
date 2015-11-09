@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: black; 
+	line-height: 1.25;
+	background: url("../images/background.jpg") repeat;
+	padding: 50px;
+}
+#container {
+	width: 800px;
+	margin: auto;
+}
+#social {
+text-align: center; 
+}
+#logo {
+	text-align: center; 
+}
+.article {
+    padding: 10px;
+    background: white;
+}
+.article img {
+	text-align: center;
+}
+a {
+	color: red;
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+.credit {
+	border-top: 1px dotted grey;
+	border-bottom: 2px solid black;
+}
+h3 {
+	font-size: 20px;
+}
+p {
+	font-size: 12px;
+}
+.article, .credit, h3, p {
+	/*margin: 20px;*/
+}

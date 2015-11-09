@@ -8,13 +8,16 @@ Ul {
       padding: 10px;
       font-family: helvetica;
    }
-   #one {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-      text-align: center;
-    }
+#one {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+}
 #two {
 	text-align: center;
+}
+#img {
+  text-align: center;
 }
 img{
       margin: 25px 0px 0px 0px;
