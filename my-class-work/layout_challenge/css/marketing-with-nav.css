@@ -1,0 +1,34 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background: red;
+	height: 100px;
+}
+
+section {
+	background: yellow;
+	height: 250px;
+	float: left;
+	width: 600px;
+}
+
+article {
+	background: green;
+	height: 100px;
+	float: left;
+	width: 400px;
+}
+
+footer {
+	background: blue;
+	height: 100px;
+}
+
+.clear{
+	clear:both;
+}
+
+
