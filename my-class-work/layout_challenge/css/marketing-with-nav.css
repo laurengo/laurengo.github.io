@@ -5,30 +5,51 @@
 
 header {
 	background: red;
-	height: 100px;
+	overflow: hidden;
+	padding: 20px;
 }
 
-section {
+.logo {
+	height: 80px;
+	width:200px;
 	background: yellow;
-	height: 250px;
 	float: left;
-	width: 600px;
+}
+
+nav {
+	margin-top: 25px;
+	float: right;
+	background: yellow;
+	width: 500px;
+}
+
+nav a {
+	display: inline-block;
+	background: pink;
+	height: 40px;
+	width: 100px;
+}
+
+main {
+	height:250px;
+	background: blue;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 article {
 	background: green;
 	height: 100px;
+	width:400px;
 	float: left;
-	width: 400px;
 }
 
 footer {
-	background: blue;
+	background: orange;
 	height: 100px;
+	margin-top: 20px
 }
 
-.clear{
+.clear {
 	clear:both;
 }
-
-
