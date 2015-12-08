@@ -1,0 +1,66 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background: red;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.logo {
+	height: 80px;
+	width:200px;
+	background: yellow;
+	float: right;
+}
+
+#tagline {
+	text-align: center;
+}
+
+nav {
+	margin-top: 25px;
+	float: center;
+	background: yellow;
+	width: 500px;
+}
+
+nav a {
+	display: inline-block;
+	background: pink;
+	height: 40px;
+	width: 100px;
+}
+
+main {
+	height:250px;
+	background: blue;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#picAnd {
+	height: 80px;
+	width:200px;
+	background: yellow;
+	float: left;
+}
+
+article {
+	background: green;
+	height: 100px;
+	width: 400px;
+	float: left;
+}
+
+footer {
+	background: orange;
+	height: 100px;
+	margin-top: 20px
+}
+
+.clear {
+	clear:both;
+}
