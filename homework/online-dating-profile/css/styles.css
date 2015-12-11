@@ -1,0 +1,48 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+	height: 50px;
+}
+
+main {
+	height: 405px;
+	width: 300px;
+	float: left;
+	background: url(../jpeg/sad-keanu-reeves-shark.png) center center no-repeat;
+}
+
+aside {
+	height: 300px;
+	width: 688px;
+	float: right;
+	border:1px solid black;
+	padding: 1px;
+}
+
+article {
+	border:1px solid black;
+	height: 100px;
+	width: 170px;
+	float: right;
+	padding-left: 1px; 
+}
+
+footer {
+	height: 100px;
+}
+
+.box {
+	overflow: hidden; 
+}
+
+h2 {
+	padding-top: 5px;
+}
+
+p {
+	padding-bottom: 5px;
+}

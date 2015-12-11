@@ -13,12 +13,16 @@ header {
 	height: 80px;
 	width:200px;
 	background: yellow;
-	float: left;
+	float: right;
+}
+
+#tagline {
+	text-align: center;
 }
 
 nav {
 	margin-top: 25px;
-	float: right;
+	float: center;
 	background: yellow;
 	width: 500px;
 }
@@ -35,6 +39,13 @@ main {
 	background: blue;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+#picAnd {
+	height: 80px;
+	width:200px;
+	background: yellow;
+	float: left;
 }
 
 article {

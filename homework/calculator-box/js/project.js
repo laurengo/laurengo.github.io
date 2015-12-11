@@ -1,32 +1,41 @@
 // Great job on this!  The functionality works well and your code is clean.  Good naming of variables and functions!
 
 $(document).ready(function () {
+	var total = 0;
 
-	var total = 0
+	$('.math div').click(function () {
+		var num = $(this).text()
+		console.log(num + total)
+		num = parseInt(num)
+		total = total + num
+		$("#out").html(total);
+
+	})
+
 
 	// Add 10 Event
-	$('#a10').click(add10)
+	//$('#a10').click(add10)
 	
-	function add10 () {
-		total = total + 10 
-		$('#out').text(total)
-	}
-
+	//function add10 () {
+	//	total = total + 10 
+	//	$('#out').text(total)
+	//}
+//
 	//Add 20 Event
-	$('#a20').click(add20)
+	//$('#a20').click(add20)
 	
-	function add20 () {
-		total = total + 20
-		$('#out').text(total)
-	}
+	//function add20 () {
+		//total = total + 20
+		//$('#out').text(total)
+	//}
 
 	//Add 30 Event
-	$('#a30').click(add30)
+	//$('#a30').click(add30)
 
-	function add30 () {
-		total = total + 30
-		$('#out').text(total)
-	}
+	//function add30 () {
+	//	total = total + 30
+	//	$('#out').text(total)
+	//}
 
 	//Make Red Event
 	$('#red').click(red)
@@ -42,7 +51,7 @@ $(document).ready(function () {
 		$("#out").css('background-color', 'blue')
 	}
 
-	//Sub 30 Event
+/*	//Sub 30 Event
 	$('#n30').click(sub30)
 
 	function sub30 () {
@@ -64,5 +73,5 @@ $(document).ready(function () {
 	function sub10 () {
 		total = total - 10
 		$('#out').text(total)
-	}
+	}*/
 })
