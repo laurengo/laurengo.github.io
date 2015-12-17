@@ -1,3 +1,5 @@
+// Great job on this!
+
 // User flow:
 // 1: user enters numerical value into #newEntry
 // 2: user pushes enter key (submits the form), the new line is appended to the <tbody id="entries">
@@ -21,7 +23,8 @@ $(document).ready(function () {
 		var newEntry = $('#newEntry').val();
 		newEntry = parseFloat(newEntry)
 		total = total + newEntry;
-		
+						// formatting: indentation
+						// could also add a dollar sign here if you care to 
 		        $('#total').html(total);
         $('#entries').append("<tr><td></td><td>" + '$' + newEntry + "</td></tr>");
     });

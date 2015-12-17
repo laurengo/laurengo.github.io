@@ -1,3 +1,5 @@
+// Great job on this!  The functionality works well and your code is clean.  Good naming of variables and functions!
+
 $(document).ready(function () {
 	var total = 0;
 
