@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|Roboto:400,300,100,400italic,500,100italic);
+
+h1,h2,h3,h4,h5,h6{
+font-family:'Nixie One',cursive;
+font-weight:700;
+text-align:center;
+margin-bottom:1%}
+
+footer{
+background-color:#1F3244;
+color:#fff;
+font-size:14px}
+
+footer a{
+color:#fff}
+
+footer ul li{
+list-style-type:none;
+text-align:left;
+margin-left:-40px}
+
+footer h3{
+text-align:left;
+margin-bottom:0;
+margin-top:3%}
+
+h1{
+margin-top:7%}
+
+nav{
+font-family:Roboto,sans-serif;
+font-weight:300}
+
+footer,section{
+padding:3% 0}
+
+.contact h4{
+text-align:left}
+
+.foot{
+margin:1% 0 0;
+font-size:14px}
+
+.foot hr{
+margin-top:5%}
+
+.aboutHollow h4{
+margin-bottom:10px}
+
+.aboutHollow{
+color:#fff;
+text-align:left}
+
+.twitter{
+color:#fff;
+text-align:left}
+
+.jumbotron{
+background: url("../images/cartoon.jpg") no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+font-size: 1.8em;
+box-shadow:0 3px 5px 0 rgba(0,0,0,.60);
+color: #fff;
+margin-bottom:0;
+}
+
+.boldWords{
+	font-weight: bold;
+}
+
+.navbar{
+background-color:rgba(255,255,255,.9);
+box-shadow:0 2px 5px 0 rgba(0,0,0,.45)}
+
+.price{
+background-color:#1F3244;
+box-shadow:0 3px 5px 0 rgba(0,0,0,.45);
+color:#fff;
+padding:10% 0;
+margin:2% 0}
+
+.right{
+text-align:right;
+padding-right:22px}
+
+.select{
+background-color:#1D9B72;
+border-radius:0;
+border:none;
+color:#fff;
+box-shadow:0 3px 3px 0 rgba(0,0,0,.2);
+width:75%}
+
+.read{
+background-color:#1F3244;
+box-shadow:0 3px 5px 0 rgba(0,0,0,.45);
+color:#fff;
+padding:2% 0 3%;
+margin:2% 0;
+overflow:hidden}
+
+.read:hover{
+background-color:#1D9B72}
+
+.read div{
+padding:10px 0}
+
+.read ol,.read ul{
+padding-top:15px;
+padding-right:25px}
+
+.read ul li{
+margin-bottom:15px;
+font-size:14px;
+list-style-type:none}
+
+.read ol li{
+margin-bottom:15px;
+font-size:14px;
+padding-right:12px}
+
+.square{
+background-color:#1d9b72;
+box-shadow:0 3px 3px 0 rgba(0,0,0,.2);
+color:#fff;
+padding:3% 0 2%}
+
+.test{
+background-color:#fff;
+box-shadow:0 3px 3px 0 rgba(0,0,0,.2);
+margin-bottom:5%;
+padding:4%}
+
+.test img{
+float:left;
+width:15%;
+margin-right:3%}
+
+.thumbnail{
+box-shadow:0 3px 3px 0 rgba(0,0,0,.2)}
+
+#aboutAndrew {
+	background: green;
+	height: 250px;
+	width: 1000px;
+	float: right;
+}
+
+#aboutHollow{
+background-color:#4586A9;
+box-shadow:0 3px 3px 0 rgba(0,0,0,.2);
+background: black;
+}
+
+#know{
+font-size:28px;
+line-height:18px}
+
+#next{
+padding:1% 10px 1% 0}
+
+#chev:hover{
+color:#1F3244;
+cursor:pointer}
+
+#social{
+margin:0 20px}
+
+#slide-toggle-read{
+cursor:pointer;
+margin-bottom:2%;
+color:#fff}
+
+#slide-toggle-read-details{
+display:none}
+
+#abouthollow{
+background-color:#E6E6E6;
+box-shadow:0 3px 3px 0 rgba(0,0,0,.2);
+}
+
+#twitter{
+background-color: black;
+color: white;
+}
+
+.head{
+text-align: left;
+margin-top:-1%
+
+}
+
+
+

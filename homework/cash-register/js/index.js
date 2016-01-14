@@ -21,10 +21,16 @@ $(document).ready(function () {
 		var newEntry = $('#newEntry').val();
 		newEntry = parseFloat(newEntry)
 		total = total + newEntry;
+
+		newEntry = "$" + newEntry.toFixed(2)
 		
-		        $('#total').html(total);
+		  
         $('#entries').append("<tr><td></td><td>" + '$' + newEntry + "</td></tr>");
-    });
+
+        $('#total').text("$" + total.toFixed(2))
+
+		$('#newEntry').val('')
+	})
 })
 
 
